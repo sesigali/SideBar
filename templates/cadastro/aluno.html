@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saber+</title>
+    <link rel="stylesheet" href="../../static/css/style1.css">
+</head>
+<body>
+    <input type="checkbox" id="checkbox">
+    <label class="btn" for="checkbox"><b>M <span>e n u</span></b></label>
+
+    <div class="sidebar">
+        <ul>
+            <a href="aluno.html"><li>Listar de Alunos</li></a>
+            <a href="cadastro_aluno.html"><li>Cadastrar de Aluno</li></a>
+            <a href="curso.html"><li>Listar de Cursos</li></a>
+            <a href="cadastra_curso.html"><li>Cadastrar de Cursos</li></a>
+            <a href="#"><li>Usuário</li></a>
+            <a href="../login.html"><li>Sair</li></a>
+        </ul>
+    </div>
+
+    <div class="container" style="margin-top: 2%;">
+        <br>
+        <a href="cadastro_aluno.html" onclick="cadastrarItem()">
+            <img src="imagens/add.png" alt="Ícone de cadastra aluno" style=" width: 50px; height: 50px; margin-left: 0.5%; color: yellow;">
+        </a>
+        <table id="customers">
+            <tr>
+                <th>RA</th>
+                <th>Nome</th>
+                <th>Data de Nascimento</th>
+                <th>Ações</th>
+            </tr>
+            <tr>
+                <td>3001122</td>
+                <td>Maria Anders</td>
+                <td>20/08/1988</td>
+                <td style="text-align: center;">
+                    <a href="../login.html" onclick="deletarItem()">
+                        <img src="imagens/editar.png" alt="Ícone de editar" style=" width: 40px; height: 40px; color: yellow;">
+                    </a>
+                    <a href="../login.html" onclick="deletarItem()">
+                        <img src="imagens/deletar.png" alt="Ícone de deletar" style="width: 40px; height: 40px; color: red;">
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td>3001133</td>
+                <td>Luiz Anders</td>
+                <td>07/09/1999</td>
+                <td style="text-align: center;">
+                    <a href="../login.html" onclick="deletarItem()">
+                        <img src="imagens/editar.png" alt="Ícone de editar" style=" width: 40px; height: 40px; color: yellow;">
+                    </a>
+                    <a href="../login.html" onclick="deletarItem()">
+                        <img src="imagens/deletar.png" alt="Ícone de deletar" style="width: 40px; height: 40px; color: red;">
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td>3001144</td>
+                <td>Ana Anders</td>
+                <td>31/12/2001</td>
+                <td style="text-align: center;">
+                    <a href="../login.html" onclick="deletarItem()">
+                        <img src="imagens/editar.png" alt="Ícone de editar" style=" width: 40px; height: 40px; color: yellow;">
+                    </a>
+                    <a href="../login.html" onclick="deletarItem()">
+                        <img src="imagens/deletar.png" alt="Ícone de deletar" style="width: 40px; height: 40px; color: red;">
+                    </a>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <footer>
+        <h2>IFSP</h2>
+    </footer> 
+    
+    <a href="https://www.flaticon.com/br/icones-gratis/ui" style="font-size: 0.01%; bottom: 0; position: fixed" title="ui ícones">Ui ícones criados por Freepik - Flaticon</a>
+</body>
+</html>
